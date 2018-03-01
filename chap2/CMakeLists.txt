@@ -1,0 +1,3 @@
+add_executable(LaunchThread LaunchThread.cpp)
+
+add_executable(NaiveParAccmulate NaiveParAccmulate.cpp)
