@@ -1,10 +1,11 @@
 cmake_minimum_required(VERSION 3.0.2)
 project(CppConcurrency)
 
-set(CMAKE_CXX_COMPILER g++)
-set(CMAKE_CXX_STANDARD 14)
+set(CMAKE_CXX_COMPILER g++-7)
+set(CMAKE_CXX_STANDARD 17)
 
 add_subdirectory(chap2)
+add_subdirectory(chap3)
 add_subdirectory(chap4)
 add_subdirectory(chap5)
 add_subdirectory(chap6)
