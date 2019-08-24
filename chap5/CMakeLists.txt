@@ -1,1 +1,2 @@
 add_executable(AtomicCount AtomicCount.cpp)
+target_link_libraries(AtomicCount pthread)

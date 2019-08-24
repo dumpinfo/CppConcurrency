@@ -1,1 +1,2 @@
 add_executable(ParallelQuickSort ParallelQuickSort.cpp)
+target_link_libraries(ParallelQuickSort pthread)

@@ -1,6 +1,7 @@
 #include <exception>
 #include <mutex>
 #include <stack>
+#include <memory>
 
 struct empty_stack : std::exception {
   const char* what() const noexcept override { return exception::what(); }

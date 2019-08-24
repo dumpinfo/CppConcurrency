@@ -1,1 +1,2 @@
 add_executable(ThreadSafeCounter ThreadSafeCounter.cpp)
+target_link_libraries(ThreadSafeCounter pthread)

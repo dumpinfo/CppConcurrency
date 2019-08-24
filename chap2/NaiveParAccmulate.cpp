@@ -3,6 +3,7 @@
 #include <numeric>
 #include <thread>
 #include <vector>
+#include <functional>
 
 template <typename Iterator, typename T>
 struct accumulateBlock {

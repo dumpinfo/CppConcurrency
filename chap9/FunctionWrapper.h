@@ -1,5 +1,7 @@
 #pragma once
 
+#include <memory>
+
 class FunctionWrapper {
  public:
   template <typename F>

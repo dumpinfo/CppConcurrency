@@ -3,6 +3,7 @@
 #include <functional>
 #include <thread>
 #include <vector>
+#include <atomic>
 #include "../chap6/Queue.h"
 #include "../chap8/JoinThreads.h"
 
