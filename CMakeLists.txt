@@ -2,7 +2,7 @@ cmake_minimum_required(VERSION 3.0.2)
 project(CppConcurrency)
 
 set(CMAKE_CXX_COMPILER g++-7)
-set(CMAKE_CXX_STANDARD 17)
+set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -std=c++17 -Wall -Wno-deprecated-declarations")
 
 add_subdirectory(chap2)
 add_subdirectory(chap3)
@@ -12,3 +12,4 @@ add_subdirectory(chap6)
 add_subdirectory(chap7)
 add_subdirectory(chap8)
 add_subdirectory(chap9)
+add_subdirectory(appendixC)
